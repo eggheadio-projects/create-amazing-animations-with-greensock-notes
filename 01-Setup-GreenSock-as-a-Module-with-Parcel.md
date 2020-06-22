@@ -17,13 +17,16 @@ Now you have a package.json where you can add a script called dev that will use 
 
 Create an index.html file, a default template ( ! tab inside index.html ) is sufficient.
 
-You can now run the command 
+You can now run the command
+
     > yarn dev
+
 and go to the corresponding url (defaults to http://localhost:1234) to see your project.
 
 stop your server before adding index.js script
 
 Add an index.js file and add a script tag to index.html to bring it in.
+
     > <script src='./index.js'></script>
 
 restart your server after adding index.js script
@@ -33,14 +36,16 @@ You can now test your js by adding some innerHTML to the document.body
 Install Greensock
 
 Now import from 'gsap' at the top of index.html
+
     > import { TweenMax } from 'gsap'
 
 Parcel bundler will automatically add the dependency, if you aren't using parcel-bundler then run
+
     > yarn add gsap
 to install greensock
 
 You can now create an element in index.html, and then run a gsap animation in index.js
+
     > TweenMax.to("element", duration, {properties})
 
 Take a look at your animation in the browser.
-
