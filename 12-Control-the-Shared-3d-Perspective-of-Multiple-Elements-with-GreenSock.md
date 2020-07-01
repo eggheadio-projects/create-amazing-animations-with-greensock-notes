@@ -27,7 +27,7 @@
             })
     ```
 
-2. Restyle in the css 
+2. Restyle in the css.
     - on the body 
         1. remove justify-content and align-items
         2. add `flex-wrap: wrap;`
@@ -35,15 +35,15 @@
     - on .box class
         - add a border so that we can see the individual boxes
         
-3. Check it out
-    - as you click on different boxes you can see the perspective change based on the parent element
-    - remember that a lower perspective will be more dramatic than a larger perspective
+3. Check it out . . .
+    - As you click on different boxes you can see the perspective change based on the parent element.
+    - Remember that a lower perspective will be more dramatic than a larger perspective.
 
 ### Unstick animations
-- at times animations will get 'stuck' because they weren't finished before they were activated again
-To Fix
-1. use the [.isTweening() method](https://greensock.com/docs/v2/TweenMax/static.isTweening()), which will return true if an animation is still running
-2. use a conditional to check if the animation is still running, and only run the animation if it is not
+- At times animations will get 'stuck' because they weren't finished before they were activated again.
+#### To Fix
+1. Use the [.isTweening() method](https://greensock.com/docs/v2/TweenMax/static.isTweening()), which will return true if an animation is still running.
+2. Use a conditional to check if the animation is still running, and only run the animation if it is not.
 ```js
 if(!TweenMax.isTweening(box)) {
     TweenMax.to(box, 1, { rotationY: "+=180" })
