@@ -4,21 +4,21 @@
 
 ### Stop animations by clicking on target
 
-1. Use the random boxes from previous video but place the animation outside of the eventListener and set them to animate to a fixed point
+1. Use the random boxes from previous video but place the animation outside of the eventListener and set them to animate to a fixed point.
 ```js
 TweenMax.to(divs, 10 { x: 100, y: 100})
 ```
-2. inside the click even function use [TweenMax.killTweensof()](https://greensock.com/docs/v2/TweenMax/static.killTweensOf()) and use event.target to select the box clicked on
+2. Inside the click even function use [TweenMax.killTweensof()](https://greensock.com/docs/v2/TweenMax/static.killTweensOf()) and use event.target to select the box clicked on.
 ```js
 TweenMax.killTweensOf(event.target)
 ```
 
 ### Stop all animations
-1. use [TweenMax.killAll()](https://greensock.com/docs/v2/TweenMax/static.killAll()) instead to stop all animations
+1. Use [TweenMax.killAll()](https://greensock.com/docs/v2/TweenMax/static.killAll()) instead to stop all animations.
 ```js
 TweenMax.killAll()
 ```
-2. optionally you can pass an argument of true in to cause all animations to complete
+2. Optionally you can pass an argument of true into killAll() to cause all animations to complete.
 ```js
 TweenMax.killAll(true)
 ```
