@@ -18,7 +18,7 @@ TweenMax.to('element', 1, {
     yoyo: true
 })
 ```
-4. GreenSock has a neat [Elastic](https://greensock.com/docs/v2/Easing/Elastic) effect
+4. GreenSock has a neat 🤔[Elastic](https://greensock.com/docs/v2/Easing/Elastic) effect
     - Import Elastic along with TweenMax from gsap.
     ```js
     import { TweenMax, Elastic } from 'gsap'

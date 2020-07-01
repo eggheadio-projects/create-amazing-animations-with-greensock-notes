@@ -3,13 +3,13 @@
 📹 [Video](https://egghead.io/lessons/greensock-control-an-array-of-elements-with-the-same-animation-in-greensock)
 
 ### Create 100 boxes and place them randomly
-1. Use the [Array.from() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) to create an array with 100 div elements.
+1. Use the 🤔[Array.from() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) to create an array with 100 div elements.
 ```js
 const divs = Array.from({length: 100}, () => 
     document.createElement("div")
 )
 ```
-2. Loop through the array with a [.forEach() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) and set the properties with [TweenMax.set()](https://greensock.com/docs/v2/TweenMax/static.set()).
+2. Loop through the array with a 🤔[.forEach() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) and set the properties with [TweenMax.set()](https://greensock.com/docs/v2/TweenMax/static.set()).
 ```js
 divs.forEach(div => {
     TweenMax.set(div, {
@@ -49,7 +49,7 @@ All together
     })
 ```
 
-- Check it out . . . If you refresh the page the boxes will be randomly placed again due to the [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) used to set the x and y properties.
+- Check it out . . . If you refresh the page the boxes will be randomly placed again due to the 🤔[Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) used to set the x and y properties.
 
 ### Collect the divs together with a click
 1. Add and event listener for a click event, you will need the event param.
@@ -60,7 +60,7 @@ All together
     ```js
     const { x, y } = event
     ```
-3. Use [TweenMax.to()](https://greensock.com/docs/v2/TweenMax/static.to()) to animate them to the location of your click.
+3. Use 🤔[TweenMax.to()](https://greensock.com/docs/v2/TweenMax/static.to()) to animate them to the location of your click.
     ```js
     TweenMax.to(divs, 1, { x, y })
     ```

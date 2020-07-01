@@ -10,7 +10,7 @@ Use gsap to style box.
 ```js
 TweenMax.set("selectedElement", {properties})
 ```
-- Take a look at [Common CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) to see how CSS properties are defined in javascript.
+- Take a look at 🤔[Common CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) to see how CSS properties are defined in javascript.
 
 ### To rotate the box
 1. Use TweenMax.to() inside the eventListener callback function.

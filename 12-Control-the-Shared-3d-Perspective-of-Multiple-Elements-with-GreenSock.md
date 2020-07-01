@@ -3,13 +3,13 @@
 📹 [Video](https://egghead.io/lessons/greensock-control-the-shared-3d-perspective-of-multiple-elements-with-greensock)
 
 ### Perspective
-- [perspective docs](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
+- 🤔[perspective docs](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
 - By adjusting the perspective of the parent container you are setting the vanishing point relative to the parent container.
 
 ### To Demonstrate
 1. Create a lot of boxes.
-    - Use [Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from), set a length to create an array.
-    - Use [.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) to create the div elements from the array.
+    - Use 🤔[Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from), set a length to create an array.
+    - Use 🤔[.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) to create the div elements from the array.
     - .forEach then allows you to set a class of box on each div, and append it to the document.body.
     - These methods can all be chained together, as shown below.
     - You can now add the animation, and you can add this inside the forEach().
@@ -42,7 +42,7 @@
 ### Unstick animations
 - At times animations will get 'stuck' because they weren't finished before they were activated again.
 #### To Fix
-1. Use the [.isTweening() method](https://greensock.com/docs/v2/TweenMax/static.isTweening()), which will return true if an animation is still running.
+1. Use the 🤔[.isTweening() method](https://greensock.com/docs/v2/TweenMax/static.isTweening()), which will return true if an animation is still running.
 2. Use a conditional to check if the animation is still running, and only run the animation if it is not.
 ```js
 if(!TweenMax.isTweening(box)) {

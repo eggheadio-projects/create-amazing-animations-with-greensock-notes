@@ -3,7 +3,7 @@
 📹 [Video](https://egghead.io/lessons/greensock-create-animation-steps-with-greensock-s-timeline)
 
 1. Import TimelineMax from gsap.
-    - [TimelineMax Docs](https://greensock.com/docs/v2/TimelineMax)
+    - 🤔[TimelineMax Docs](https://greensock.com/docs/v2/TimelineMax)
 ```js
 import { TimelineMax } from 'gsap'
 ```

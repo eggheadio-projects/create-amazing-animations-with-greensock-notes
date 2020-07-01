@@ -3,7 +3,7 @@
 📹 [Vidoe](https://egghead.io/lessons/greensock-manually-control-the-animation-with-progress-in-greensock)
 
 ### Manually Control animation
-- Use a wheel event listener and the [progress property](https://greensock.com/docs/v2/TimelineMax/progress()) on the timeline.
+- Use a wheel event listener and the 🤔[progress property](https://greensock.com/docs/v2/TimelineMax/progress()) on the timeline.
 ```js
 document.addEventListener('wheel', () => {
     timeline.progress(timeline.progress() + 0.1)

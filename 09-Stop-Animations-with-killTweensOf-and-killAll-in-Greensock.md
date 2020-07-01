@@ -8,13 +8,13 @@
 ```js
 TweenMax.to(divs, 10 { x: 100, y: 100})
 ```
-2. Inside the click even function use [TweenMax.killTweensof()](https://greensock.com/docs/v2/TweenMax/static.killTweensOf()) and use event.target to select the box clicked on.
+2. Inside the click even function use 🤔[TweenMax.killTweensof()](https://greensock.com/docs/v2/TweenMax/static.killTweensOf()) and use event.target to select the box clicked on.
 ```js
 TweenMax.killTweensOf(event.target)
 ```
 
 ### Stop all animations
-1. Use [TweenMax.killAll()](https://greensock.com/docs/v2/TweenMax/static.killAll()) instead to stop all animations.
+1. Use 🤔[TweenMax.killAll()](https://greensock.com/docs/v2/TweenMax/static.killAll()) instead to stop all animations.
 ```js
 TweenMax.killAll()
 ```

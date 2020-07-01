@@ -4,7 +4,7 @@
 
 ### To repeat timeline animation
 
-- Use the greensock TimelineMax's [repeat property](https://greensock.com/docs/v2/TimelineMax/repeat()).
+- Use the greensock TimelineMax's 🤔[repeat property](https://greensock.com/docs/v2/TimelineMax/repeat()).
 - A positive number will be the number of times an animation repeats, but a -1 will cause it to repeat indefinitely. Use -1 in this instance
 
 ```js

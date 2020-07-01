@@ -2,7 +2,7 @@
 
 📹 [Video](https://egghead.io/lessons/greensock-setup-greensock-as-a-module-with-parcel)
 
-1. Start by creating a folder for your new project, then add [parcel bundler](https://parceljs.org/getting_started.html) as a dev dependency.
+1. Start by creating a folder for your new project, then add 🤔[parcel bundler](https://parceljs.org/getting_started.html) as a dev dependency.
 
 ```
 yarn add -D parcel-bundler
