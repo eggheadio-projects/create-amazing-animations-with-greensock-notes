@@ -2,18 +2,18 @@
 
 📹 [Video](https://egghead.io/lessons/greensock-create-animation-steps-with-greensock-s-timeline)
 
-1. Import TimelineMax from gsap
+1. Import TimelineMax from gsap.
     - [TimelineMax Docs](https://greensock.com/docs/v2/TimelineMax)
 ```js
 import { TimelineMax } from 'gsap'
 ```
 
-2. Create a timeline, using the TimelineMax() constructor
+2. Create a timeline, using the TimelineMax() constructor.
 ```js
 const timeline = new TimelineMax()
 ```
 
-3. Set a sequence of things to do
+3. Set a sequence of things to do.
     ```js
     timeline.to("#box", .5, {x: 100})
     timeline.to("#box", .5, {y: 100})
@@ -21,7 +21,7 @@ const timeline = new TimelineMax()
     - Each sequential animation will wait until the previous animation finishes.
     - Notice that the syntax is very similar to a TweenMax.to() function.
 
-4. Use pause and resume to control when your animation starts
+4. Use pause and resume to control when your animation starts.
     - If you do not pause the timeline after creation, it will run when the page loads (just like other gsap animations).
     ```js
     timeline.pause()
