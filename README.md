@@ -1,6 +1,6 @@
-# [Create Amazing Animations With GreenSock](https://egghead.io/courses/create-amazing-animations-with-greensock)
+<h1 align="center"><a href="https://egghead.io/courses/create-amazing-animations-with-greensock">Create Amazing Animations With GreenSock</a></h1>
 
-![illustration for Create Amazing Animations with GreenSock](https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/253/full/EGH_GreensockAnimation_Final.png)
+<p align="center"><img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/253/full/EGH_GreensockAnimation_Final.png" width="340"></p>
 
 ### About
 This repo contains notes from John Lindquist's Egghead course [Create Amazing Animations With GreenSock](https://egghead.io/courses/create-amazing-animations-with-greensock).
