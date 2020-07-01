@@ -30,23 +30,23 @@ document.body.appendChild(div)
 
 All together
 ```js
-    const divs = Array.from({length: 100}, () => 
-        document.createElement('div')
-    )
+const divs = Array.from({length: 100}, () => 
+    document.createElement('div')
+)
 
-    divs.forEach(div => {
-        TweenMax.set(div, {
-            position: "absolute",
-            x: `${Math.random() * window.innerWidth}px`,
-            y: `${Math.random() * window.innerHeight}px`,
-            width: 20,
-            height: 20,
-            backgroundColor: "green",
-            border: "3px solid black"
-        })
-        
-        document.body.appendChild(div)
+divs.forEach(div => {
+    TweenMax.set(div, {
+        position: "absolute",
+        x: `${Math.random() * window.innerWidth}px`,
+        y: `${Math.random() * window.innerHeight}px`,
+        width: 20,
+        height: 20,
+        backgroundColor: "green",
+        border: "3px solid black"
     })
+    
+    document.body.appendChild(div)
+})
 ```
 
 - Check it out . . . If you refresh the page the boxes will be randomly placed again due to the 🤔[Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) used to set the x and y properties.
@@ -68,11 +68,11 @@ All together
 
 All together
 ```js
-    document.addEventListener("click", event => {
-        const { x, y } = event
+document.addEventListener("click", event => {
+    const { x, y } = event
 
-        TweenMax.to(divs, 1, { x, y })
-    })
+    TweenMax.to(divs, 1, { x, y })
+})
 ```
 
 📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-animate-from-a-variable-point-with-from-and-fromto-in-greensock)

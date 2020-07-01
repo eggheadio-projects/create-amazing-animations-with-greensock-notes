@@ -15,16 +15,16 @@
     - You can now add the animation, and you can add this inside the forEach().
 
     ```js
-        Array.from({length: 30})
-            .map(() => document.createElement("div"))
-            .forEach(box => {
-                box.setAttribute("class", "box")
-                document.body.appendChild(box)
+    Array.from({length: 30})
+        .map(() => document.createElement("div"))
+        .forEach(box => {
+            box.setAttribute("class", "box")
+            document.body.appendChild(box)
 
-                box.addEventListeners("click", () => {
-                    TweenMax.to(box, 1, { rotationY: "+=180" })
-                })
+            box.addEventListeners("click", () => {
+                TweenMax.to(box, 1, { rotationY: "+=180" })
             })
+        })
     ```
 
 2. Restyle in the css.

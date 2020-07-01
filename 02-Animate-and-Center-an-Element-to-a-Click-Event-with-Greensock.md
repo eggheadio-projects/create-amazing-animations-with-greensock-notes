@@ -73,10 +73,10 @@ yarn dev
     - Check it out . . . now the corner lines up with the pointer click, but to make it center on the pointer keep going.
 4. Align the center of the box to the x and y coordinates.
     - Use TweenMax.set, syntax looks like this
-        ```js
-        TweenMax.set("selectedElement", {properties})
-        ```
-        - This will set the {properties} of the "selectedElement" from the get go and keep them throughout animation.
+    ```js
+    TweenMax.set("selectedElement", {properties})
+    ```
+    - This will set the {properties} of the "selectedElement" from the get go and keep them throughout animation.
     ```
     TweenMax.to("#box", {xPercent: -50, yPercent: -50})
     ```
