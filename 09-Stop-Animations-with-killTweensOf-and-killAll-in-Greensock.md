@@ -23,5 +23,5 @@ TweenMax.killAll()
 TweenMax.killAll(true)
 ```
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-control-an-array-of-elements-with-the-same-animation-in-greensock)
-📹 [Next Lesson](https://egghead.io/lessons/greensock-animate-between-css-classes-with-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-control-an-array-of-elements-with-the-same-animation-in-greensock)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-animate-between-css-classes-with-greensock)

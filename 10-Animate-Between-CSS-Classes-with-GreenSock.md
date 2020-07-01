@@ -15,5 +15,5 @@
     - "mouseenter" adds, "mouseout" removes
     - "mousedown" adds, "mouseup" removes
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-stop-animations-with-killtweensof-and-killall-in-greensock)
-📹 [Next Lesson](https://egghead.io/lessons/greensock-spin-elements-in-3d-with-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-stop-animations-with-killtweensof-and-killall-in-greensock)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-spin-elements-in-3d-with-greensock)

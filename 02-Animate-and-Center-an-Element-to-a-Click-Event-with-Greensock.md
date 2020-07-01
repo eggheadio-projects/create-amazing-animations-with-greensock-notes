@@ -82,4 +82,5 @@ yarn dev
     ```
     - Check it out . . . nice Right!?
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-setup-greensock-as-a-module-with-parcel) 📹 [Next Lesson](https://egghead.io/lessons/greensock-rotate-an-element-based-on-previous-values-with-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-setup-greensock-as-a-module-with-parcel) 
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-rotate-an-element-based-on-previous-values-with-greensock)

@@ -75,5 +75,5 @@ All together
     })
 ```
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-animate-from-a-variable-point-with-from-and-fromto-in-greensock)
-📹 [Next Lesson](https://egghead.io/lessons/greensock-stop-animations-with-killtweensof-and-killall-in-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-animate-from-a-variable-point-with-from-and-fromto-in-greensock)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-stop-animations-with-killtweensof-and-killall-in-greensock)

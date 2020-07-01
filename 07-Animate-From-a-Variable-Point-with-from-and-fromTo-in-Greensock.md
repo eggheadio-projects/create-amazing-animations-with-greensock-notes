@@ -22,5 +22,5 @@
     })
 ```
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-manually-control-the-animation-with-progress-in-greensock)
-📹 [Next Lesson](https://egghead.io/lessons/greensock-control-an-array-of-elements-with-the-same-animation-in-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-manually-control-the-animation-with-progress-in-greensock)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-control-an-array-of-elements-with-the-same-animation-in-greensock)

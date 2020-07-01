@@ -29,5 +29,5 @@ document.getElementById("box").addEventListener('click', () => {
 
 Check it out . . . You can now pause and resume your animation by clicking on the box.
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-create-animation-steps-with-greensock-s-timeline)
-📹 [Next Lesson](https://egghead.io/lessons/greensock-manually-control-the-animation-with-progress-in-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-create-animation-steps-with-greensock-s-timeline)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-manually-control-the-animation-with-progress-in-greensock)

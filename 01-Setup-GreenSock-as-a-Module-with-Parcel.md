@@ -61,4 +61,4 @@ TweenMax.to("element", duration, {properties})
 Take a look at your animation in the browser.
 
 
-📹 [Next Lesson](https://egghead.io/lessons/greensock-animate-and-center-an-element-to-a-click-event-with-greensock)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-animate-and-center-an-element-to-a-click-event-with-greensock)

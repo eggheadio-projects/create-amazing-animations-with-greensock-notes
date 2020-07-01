@@ -36,5 +36,5 @@ rotation: "+=30"
 - Now additional clicks will continue to rotate the #box.
 
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-animate-and-center-an-element-to-a-click-event-with-greensock)
-📹 [Next Lesson](https://egghead.io/lessons/greensock-create-animation-steps-with-greensock-s-timeline)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-animate-and-center-an-element-to-a-click-event-with-greensock)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-create-animation-steps-with-greensock-s-timeline)

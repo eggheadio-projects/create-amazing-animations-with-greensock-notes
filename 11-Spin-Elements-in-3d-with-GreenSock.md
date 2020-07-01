@@ -14,5 +14,5 @@
     ```
     - The lower the number, the more dramatic the perspective shift.
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-animate-between-css-classes-with-greensock)
-📹 [Next Lesson](https://egghead.io/lessons/greensock-control-the-shared-3d-perspective-of-multiple-elements-with-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-animate-between-css-classes-with-greensock)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-control-the-shared-3d-perspective-of-multiple-elements-with-greensock)

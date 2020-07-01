@@ -35,5 +35,5 @@ const timeline = new TimelineMax()
     ```
     - This does not restart the timeline, just continues it wherever you paused. So once the timeline finishes, you can not redo the event (a click in the video example) to restart the animation.
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-rotate-an-element-based-on-previous-values-with-greensock)
-📹 [Next Lesson](https://egghead.io/lessons/greensock-pause-or-resume-an-animation-by-checking-isactive-with-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-rotate-an-element-based-on-previous-values-with-greensock)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-pause-or-resume-an-animation-by-checking-isactive-with-greensock)

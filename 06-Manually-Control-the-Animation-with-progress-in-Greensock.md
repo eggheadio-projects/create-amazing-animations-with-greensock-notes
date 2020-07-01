@@ -41,5 +41,5 @@ document.addEventListener('wheel', event => {
 ```
 - Notice that the "selectedElement" is timeline, not "#box". That is because the progress is a property on the timeline, not on the box div.
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-pause-or-resume-an-animation-by-checking-isactive-with-greensock)
-📹 [Next Lesson](https://egghead.io/lessons/greensock-animate-from-a-variable-point-with-from-and-fromto-in-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-pause-or-resume-an-animation-by-checking-isactive-with-greensock)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-animate-from-a-variable-point-with-from-and-fromto-in-greensock)

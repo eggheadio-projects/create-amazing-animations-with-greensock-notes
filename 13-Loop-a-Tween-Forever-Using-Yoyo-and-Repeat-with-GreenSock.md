@@ -33,4 +33,4 @@ TweenMax.to('element', 1, {
     })
     ```
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-control-the-shared-3d-perspective-of-multiple-elements-with-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-control-the-shared-3d-perspective-of-multiple-elements-with-greensock)

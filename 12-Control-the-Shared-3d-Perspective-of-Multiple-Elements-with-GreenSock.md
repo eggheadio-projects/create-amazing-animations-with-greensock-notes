@@ -50,5 +50,5 @@ if(!TweenMax.isTweening(box)) {
 }
 ```
 
-📹 [Previous Lesson](https://egghead.io/lessons/greensock-spin-elements-in-3d-with-greensock)
-📹 [Next Lesson](https://egghead.io/lessons/greensock-loop-a-tween-forever-using-yoyo-and-repeat-with-greensock)
+📹 [Go to Previous Lesson](https://egghead.io/lessons/greensock-spin-elements-in-3d-with-greensock)
+📹 [Go to Next Lesson](https://egghead.io/lessons/greensock-loop-a-tween-forever-using-yoyo-and-repeat-with-greensock)
