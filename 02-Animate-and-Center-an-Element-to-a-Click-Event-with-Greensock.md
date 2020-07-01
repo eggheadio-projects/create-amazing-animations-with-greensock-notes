@@ -42,7 +42,10 @@ TweenMax will move the "selectedElement" to the {properties} in the time set by 
 
 So the code from 2. will move our div with id box to x = 100px and y = 100px in 1 second.
 
-If you want to move the box to the location of your click a few additional steps are necessary.
+
+
+#### If you want to move the box to the location of your click a few additional steps are necessary.
+
 1. grab the location of your click
     - this can be done by accessing the clientX and clientY properties from the click event
     ```js
