@@ -27,9 +27,7 @@ document.addEventListener('click', event => {
 ```
 rotation: 30
 ```
-    
-    to 
-
+to 
 ```
 rotation: "+=30"
 ```
