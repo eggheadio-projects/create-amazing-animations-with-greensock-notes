@@ -14,12 +14,12 @@ const timeline = new TimelineMax()
 ```
 
 3. Set a sequence of things to do
-```js
-timeline.to("#box", .5, {x: 100})
-timeline.to("#box", .5, {y: 100})
-```
-- each sequential animation will wait until the previous animation finishes
-- notice that the syntax is very similar to a TweenMax.to() function
+    ```js
+    timeline.to("#box", .5, {x: 100})
+    timeline.to("#box", .5, {y: 100})
+    ```
+    - each sequential animation will wait until the previous animation finishes
+    - notice that the syntax is very similar to a TweenMax.to() function
 
 4. Use pause and resume to control when your animation starts
     - if you do not pause the timeline after creation, it will run when the page loads (just like other gsap animations)
