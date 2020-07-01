@@ -2,16 +2,16 @@
 
 📹 [Video](https://egghead.io/lessons/greensock-animate-and-center-an-element-to-a-click-event-with-greensock)
 
-1. Create a box with basic styles in index.html
+1. Create a box with basic styles in index.html.
     - div with id="box"
     ```html
     <div id="box"></div>
     ```
-    - Create css file and link it in the head of your html
+    - Create css file and link it in the head of your html.
     ```html
     <link rel="stylesheet" href="./styles.css">
     ```
-    - Add basic styles
+    - Add basic styles.
     ```css
     #box {
         width: 25px;
@@ -20,17 +20,17 @@
     }
     ```
 
-2. Now start your server
+2. Now start your server.
 ```
 yarn dev
 ```
 
-3. Switch to your index.js file to add event
-    - Add event listener
+3. Switch to your index.js file to add an event.
+    - Add event listener.
     ```js
     document.addEventListener("click", event => {}) 
     ```
-    - add TweenMax inside event listener
+    - Add TweenMax inside event listener.
     ```js
     document.addEventListener("click", event => {
         TweenMax.to("#box", 1, { x: 100, y: 100})
@@ -47,14 +47,14 @@ yarn dev
 
 ### If you want to move the box to the location of your click a few additional steps are necessary.
 
-1. grab the location of your click
-    - this can be done by accessing the clientX and clientY properties from the click event
+1. Grab the location of your click.
+    - This can be done by accessing the clientX and clientY properties from the click event.
     ```js
     document.addEventListener("click", event => {
         const {clientX, clientY} = event
     })
     ```
-2. Use the locations inside your TweenMax
+2. Use the locations inside your TweenMax.
     ```js
     document.addEventListener("click", event => {
         const {clientX, clientY} = event
@@ -62,22 +62,24 @@ yarn dev
         TweenMax.to("#box", 1, { x: clientX, y: clientY})
     })
     ```
-    - check it out . . . not quite right just yet is it? 
-3. eliminate body margin
-    - inside your CSS file
+    - Check it out . . . not quite right just yet is it? 
+3. Eliminate body margin.
+    - Inside your CSS file,
     ```css
     body {
         margin: 0;
     }
     ```
-    - check it out . . . now the corner lines up with the pointer click, but to make it center on the pointer keep going.
-4. Align the center of the box to the x and y coordinates
-    - use TweenMax.set, syntax looks like this
-        `TweenMax.set("selectedElement", {properties})`
-        - this will set the {properties} of the "selectedElement" from the get go and keep them throughout animation
+    - Check it out . . . now the corner lines up with the pointer click, but to make it center on the pointer keep going.
+4. Align the center of the box to the x and y coordinates.
+    - Use TweenMax.set, syntax looks like this
+        ```js
+        TweenMax.set("selectedElement", {properties})
+        ```
+        - This will set the {properties} of the "selectedElement" from the get go and keep them throughout animation.
     ```
     TweenMax.to("#box", {xPercent: -50, yPercent: -50})
     ```
-    - check it out . . . nice Right!?
+    - Check it out . . . nice Right!?
 
 📹 [Previous Lesson](https://egghead.io/lessons/greensock-setup-greensock-as-a-module-with-parcel) 📹 [Next Lesson](https://egghead.io/lessons/greensock-rotate-an-element-based-on-previous-values-with-greensock)
