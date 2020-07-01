@@ -3,15 +3,15 @@
 📹 [Video](https://egghead.io/lessons/greensock-animate-between-css-classes-with-greensock)
 
 ### Animate class changes
-1. create a div with a class of box
-2. establish styles for the .box class
-3. add two new classes .hover and .down and styles for each
-4. add an eventListener on the box and use [TweenMax.to()](https://greensock.com/docs/v2/TweenMax/static.to()) to adjust the className of the box
-    - make sure to add the additional classes, if you replace the class you won't be adding styles to the box, but replacing them
+1. Create a div with a class of box.
+2. Establish styles for the .box class.
+3. Add two new classes .hover and .down and styles for both.
+4. Add an eventListener on the box and use [TweenMax.to()](https://greensock.com/docs/v2/TweenMax/static.to()) to adjust the className of the box.
+    - Make sure to add the additional classes. If you replace the class you won't be adding styles to the box, but replacing them.
     ```js
     TweenMax.to(box, .25, { className: '+=hover' })
     ```
-5. Make sure to use opposite addEventListeners to remove the classNames 
+5. Make sure to use opposite addEventListeners to remove the classNames.
     - "mouseenter" adds, "mouseout" removes
     - "mousedown" adds, "mouseup" removes
 
