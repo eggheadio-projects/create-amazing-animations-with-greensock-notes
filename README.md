@@ -60,4 +60,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="tsbarrett89"><img src="https://avatars0.githubusercontent.com/u/47550906?s=460&u=a35e2e27da87a24ea55a6cfbe8a2570262d4921f&v=4" alt=""/><br /><sub><b>Thomas Barrett</b></sub></a><br /><a href="https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes" title="Notes">🖋️</a></td>
+    <td align="center"><a href="tsbarrett89"><img src="https://avatars0.githubusercontent.com/u/47550906?s=460&u=a35e2e27da87a24ea55a6cfbe8a2570262d4921f&v=4" width="100px;" alt=""/><br /><sub><b>Thomas Barrett</b></sub></a><br /><a href="https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes" title="Notes">🖋️</a></td>
