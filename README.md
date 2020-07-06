@@ -25,19 +25,19 @@ Greensock is the best platform available for creating performant, highly-customi
 John Lindquist is a co-founder of egghead.io John has spent the majority of his career developing Rich Web Applications. Before starting egghead.io, John worked at JetBrains as a WebStorm evangelist, and before that he was a Technical Architect at Isobar leading large teams in building the latest and greatest in web apps for the Air Force, HBO, and Bloomberg. [Learn more about John's story with egghead here.](https://howtoegghead.com/instructor/case-studies/john-lindquist/)
 
 ### Table of Contents 📜
-- [01-Setup GreenSock As A Module With Parcel](01-Setup-GreenSock-as-a-Module-with-Parcel.md)
-- [02-Animate and Center an Element to a Click Event with Greensock](02-Animate-and-Center-an-Element-to-a-Click-Event-with-Greensock.md)
-- [03-Rotate an Element Based on Previous Values with Greensock](03-Rotate-an-Element-Based-on-Previous-Values-with-Greensock.md)
-- [04-Create Animation Steps with Greensock's Timeline](04-Create-Animation-Steps-with-Greensocks-Timeline.md)
-- [05-Pause or Resume an Animation by Checkout isActive with Greensock](05-Pause-or-Resume-an-Animation-by-Checkout-isActive-with-Greensock.md)
-- [06-Manually Control the Animation with progress in Greensock](06-Manually-Control-the-Animation-with-progress-in-Greensock.md)
-- [07-Animate From a Variable Point with from and fromTo in GreenSock](07-Animate-From-a-Variable-Point-with-from-and-fromTo-in-Greensock.md)
-- [08-Control and Array of Elements with the Same Animations in Greensock](08-Control-an-Array-of-Elements-with-the-Same-Animation-in-Greensock.md)
-- [09-Stop Animations with killTweensOf and killAll in Greensock](09-Stop-Animations-with-killTweensOf-and-killAll-in-Greensock.md)
-- [10-Animate class changes](10-Animate-Between-CSS-Classes-with-GreenSock.md)
-- [11-Spin Elements in 3d with GreenSock](11-Spin-Elements-in-3d-with-GreenSock.md)
-- [12-Control the Shared 3d Perspective of Multiple Elements with GreenSock](12-Control-the-Shared-3d-Perspective-of-Multiple-Elements-with-GreenSock.md)
-- [13-Loop a Tween Forever Using yoyo and Repeat with GreenSock](13-Loop-a-Tween-Forever-Using-Yoyo-and-Repeat-with-GreenSock.md)
+- [01-Setup GreenSock As A Module With Parcel](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/01-setup-greensock-as-a-module-with-parcel.md)
+- [02-Animate and Center an Element to a Click Event with Greensock](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/02-animate-and-center-an-element-to-a-click-event-with-greensock.md)
+- [03-Rotate an Element Based on Previous Values with Greensock](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/03-rotate-an-element-based-on-previous-values-with-greensock.md)
+- [04-Create Animation Steps with Greensock's Timeline](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/04-create-animation-steps-with-greensocks-timeline.md)
+- [05-Pause or Resume an Animation by Checkout isActive with Greensock](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/05-pause-or-resume-an-animation-by-checkout-isactive-with-greensock.md)
+- [06-Manually Control the Animation with progress in Greensock](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/06-manually-control-the-animation-with-progress-in-greensock.md)
+- [07-Animate From a Variable Point with from and fromTo in GreenSock](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/07-animate-From-a-variable-point-with-from-and-fromto-in-greensock.md)
+- [08-Control and Array of Elements with the Same Animations in Greensock](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/08-control-an-array-of-elements-with-the-same-animation-in-greensock.md)
+- [09-Stop Animations with killTweensOf and killAll in Greensock](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/09-stop-animations-with-killtweensof-and-killall-in-greensock.md)
+- [10-Animate class changes](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/10-animate-between-css-classes-with-greensock.md)
+- [11-Spin Elements in 3d with GreenSock](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/11-spin-elements-in-3d-with-greensock.md)
+- [12-Control the Shared 3d Perspective of Multiple Elements with GreenSock](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/12-control-the-shared-3d-perspective-of-multiple-elements-with-greensock.md)
+- [13-Loop a Tween Forever Using yoyo and Repeat with GreenSock](https://github.com/eggheadio-projects/create-amazing-animations-with-greensock-notes/blob/master/13-loop-a-tween-forever-using-yoyo-and-repeat-with-greensock.md)
 
 ### Emoji Legend
 
